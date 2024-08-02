@@ -98,7 +98,7 @@ thread_local! {
 
 // Some clipboard items, like images, may take a very long time to produce a
 // `SelectionNotify`. Multiple seconds long.
-const LONG_TIMEOUT_DUR: Duration = Duration::from_millis(4000);
+const LONG_TIMEOUT_DUR: Duration = Duration::from_millis(12000);
 const SHORT_TIMEOUT_DUR: Duration = Duration::from_millis(10);
 
 #[derive(Debug, PartialEq, Eq)]
